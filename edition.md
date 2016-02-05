@@ -3,9 +3,9 @@ layout: default
 title: Presenation
 ---
 
-The manuscript sources are being pulled from <https://github.com/susannalles/susannalles.github.io/tree/master/Vitae>. 
+The manuscript sources are being pulled from <https://github.com/susannalles/Vitae>, and published in <https://github.com/susannalles/susannalles.github.io/tree/master/Vitae> 
 
-Note that we assemble the transcription dynamically using TEI, YAML, and CSS. The page is meant to show the ease of engineering on top of plain text sources.
+We transform the transcription in XML-TEI, into markdown files. Afterwards, the site is build dynamically using Markdown, YAML, HTML Templates and CSS. 
 
 [Vitae Hannibalis - Vita de Scipión](VH/VH-1.html)
 
