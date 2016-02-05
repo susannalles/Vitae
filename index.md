@@ -5,7 +5,7 @@ layout: default
 
 **About this project**
 
-The challenges of the project *Vitae Illustrium Virorum* are as follows:
+The challenges of the project *Vitae Illustrium Virorum* or *The Lives of Extraordinary Men* are as follows:
 
 1.	This project contains a series of biographies written in Latin by Italian humanists and translated by the Spaniard Alfonso de Palencia at the end of the XVth century.
 2.	The aim is to publish the Latin text and the Spanish translation, and display them synchronically in a unique a simple interface.
