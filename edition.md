@@ -7,9 +7,11 @@ The manuscript sources are being pulled from <https://github.com/susannalles/Vit
 
 We transform the transcription in XML-TEI, into markdown files. Afterwards, the site is build dynamically using Markdown, YAML, HTML Templates and CSS. 
 
-[Vitae Hannibalis - Vita de Scipión](VH/VH-1.html)
+Leonardo Bruni, *Vita Aristotelis*<br/>
+Guarino Veronese, *Vita Platonis*<br/>
+Donato Acciaiuoli, [*Vitae Hannibalis*](VH/1.html)<br/>
+Donato Acciaiuoli, [*Vita de Scipión*](VS/1.html)<br/>
+Donato Acciaiuoli, *Vita Caroli Magni* <br/>
 
-<img src="public/images/1478/112r-small.jpg">
-<img src="public/images/1491/165v-small.png">
 
 

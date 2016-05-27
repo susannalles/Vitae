@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vitae Illustrium Virorum</title>
-   <!-- <link rel="stylesheet" href="../public/css/normalize.css">-->
-      <link rel="stylesheet" href="../public/css/foundation.css">
-        <link rel="stylesheet" href="../public/css/transform.css" />
- 
-   <!-- <link href="style.css" rel="stylesheet" />-->
+    <!-- <link rel="stylesheet" href="../public/css/normalize.css">-->
+    <link rel="stylesheet" href="../public/css/foundation.css" />
+    <link rel="stylesheet" href="../public/css/transform.css" />
+
+    <!-- <link href="style.css" rel="stylesheet" />-->
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script language="javascript">
@@ -37,406 +37,351 @@
     <div class="row">
       <div class="large-12 columns">
         <h2>
-          <a href="http://susannalles.github.io/Vitae/index.html"
-            style="text-decoration: none; color: black;">Vitae Illustrium Virorum  / The Lives of Extraordinary Men</a>
-        </h1>
+          <a href="http://susannalles.github.io/Vitae/index.html">Vitae Illustrium Virorum</a>
+        </h2>
         <!-- MENU -->
-        
-        <a href="../index.html" class="small radius button">About</a>
-        <a href="../edition.html" class="small radius button">Edition/ Manuscript</a>
+        <ul class="button-group">
+          <li>
+            <a href="../index.html" class="tiny button">About</a>
+          </li>
+          <li>
+            <a href="../edition.html" class="tiny button">Edition</a>
+          </li>
+        </ul>
       </div>
     </div>
 
     <!-- INFO -->
     <div class="row">
       <div class="large-12 columns">
-       <!-- <p>Technical description about what is doing this page. </p>-->
-        
+        <!-- <p>Technical description about what is doing this page. </p>-->
+        <div class="titulo"><!-- Life title--> {{page.titulo}} </div>
       </div>
     </div>
 
     <!-- ROW WITH THE CHAPTER NUMBERS -->
     <div class="row">
       <div class="large-12 columns">
-<!--        
-        <label>Section
-          <select id="mySelect"
-            onchange="if(this.options[this.selectedIndex].value != ''){window.top.location.href=this.options[this.selectedIndex].value}">
-            <option value="0"> </option>
-            <option value="VH-1.html">1</option></a>
-            <option value="VH-2.html">2</option>
-            <option value="VH-3.html">3</option>
-            <option value="VH-4.html">4</option>
-          </select>
-        </label>-->
+        <ul class="pagination text-left" role="navigation" aria-label="Pagination">
+       
+        		{{ page.paginas}}
         
-        <ul class="pagination text-center" role="navigation" aria-label="Pagination">
-          <li>
-            <a href="VH-1.html">1</a>
+         <!-- <li>
+            <a href="{{ page.ref }}1.html">1</a>
           </li>
           <li>
-            <a href="VH-2.html">2</a>
+            <a href="{{ page.ref}}2.html">2</a>
           </li>
           <li>
-            <a href="VH-3.html">3</a>
+            <a href="{{ page.ref}}3.html">3</a>
           </li>
           <li>
-            <a href="VH-4.html">4</a>
+            <a href="{{ page.ref}}4.html">4</a>
           </li>
           <li>
-            <a href="VH-5.html">5</a>
+            <a href="{{ page.ref}}5.html">5</a>
           </li>
           <li>
-            <a href="VH-6.html">6</a>
+            <a href="{{ page.ref}}6.html">6</a>
           </li>
           <li>
-            <a href="VH-7.html">7</a>
+            <a href="{{ page.ref}}7.html">7</a>
           </li>
           <li>
-            <a href="VH-8.html">8</a>
+            <a href="{{ page.ref}}8.html">8</a>
           </li>
           <li>
-            <a href="VH-9.html">9</a>
+            <a href="{{ page.ref}}9.html">9</a>
           </li>
           <li>
-            <a href="VH-10.html">10</a>
+            <a href="{{ page.ref}}10.html">10</a>
           </li>
           <li>
-            <a href="VH-11.html">11</a>
+            <a href="{{ page.ref}}11.html">11</a>
           </li>
           <li>
-            <a href="VH-12.html">12</a>
+            <a href="{{ page.ref}}12.html">12</a>
           </li>
           <li>
-            <a href="VH-13.html">13</a>
+            <a href="{{ page.ref}}13.html">13</a>
           </li>
           <li>
-            <a href="VH-14.html">14</a>
+            <a href="{{ page.ref}}14.html">14</a>
           </li>
           <li>
-            <a href="VH-15.html">15</a>
+            <a href="{{ page.ref}}15.html">15</a>
           </li>
           <li>
-            <a href="VH-16.html">16</a>
+            <a href="{{ page.ref}}16.html">16</a>
           </li>
           <li>
-            <a href="VH-17.html">17</a>
+            <a href="{{ page.ref}}17.html">17</a>
           </li>
           <li>
-            <a href="VH-18.html">18</a>
+            <a href="{{ page.ref}}18.html">18</a>
           </li>
           <li>
-            <a href="VH-19.html">19</a>
+            <a href="{{ page.ref}}19.html">19</a>
           </li>
           <li>
-            <a href="VH-20.html">20</a>
+            <a href="{{ page.ref}}20.html">20</a>
           </li>
           <li>
-            <a href="VH-21.html">21</a>
+            <a href="{{ page.ref}}21.html">21</a>
           </li>
           <li>
-            <a href="VH-22.html">22</a>
+            <a href="{{ page.ref}}22.html">22</a>
           </li>
           <li>
-            <a href="VH-23.html">23</a>
+            <a href="{{ page.ref}}23.html">23</a>
           </li>
           <li>
-            <a href="VH-24.html">24</a>
+            <a href="{{ page.ref}}24.html">24</a>
           </li>
           <li>
-            <a href="VH-25.html">25</a>
+            <a href="{{ page.ref}}25.html">25</a>
           </li>
           <li>
-            <a href="VH-26.html">26</a>
+            <a href="{{ page.ref}}26.html">26</a>
           </li>
           <li>
-            <a href="VH-27.html">27</a>
+            <a href="{{ page.ref}}27.html">27</a>
           </li>
           <li>
-            <a href="VH-28.html">28</a>
+            <a href="{{ page.ref}}28.html">28</a>
           </li>
           <li>
-            <a href="VH-29.html">29</a>
+            <a href="{{ page.ref}}29.html">29</a>
           </li>
           <li>
-            <a href="VH-30.html">30</a>
+            <a href="{{ page.ref}}30.html">30</a>
           </li>
           <li>
-            <a href="VH-31.html">31</a>
+            <a href="{{ page.ref}}31.html">31</a>
           </li>
           <li>
-            <a href="VH-32.html">32</a>
+            <a href="{{ page.ref}}32.html">32</a>
           </li>
           <li>
-            <a href="VH-33.html">33</a>
+            <a href="{{ page.ref}}33.html">33</a>
           </li>
           <li>
-            <a href="VH-34.html">34</a>
+            <a href="{{ page.ref}}34.html">34</a>
           </li>
           <li>
-            <a href="VH-35.html">35</a>
+            <a href="{{ page.ref}}35.html">35</a>
           </li>
           <li>
-            <a href="VH-36.html">36</a>
+            <a href="{{ page.ref}}36.html">36</a>
           </li>
           <li>
-            <a href="VH-37.html">37</a>
+            <a href="{{ page.ref}}37.html">37</a>
           </li>
           <li>
-            <a href="VH-38.html">38</a>
+            <a href="{{ page.ref}}38.html">38</a>
           </li>
           <li>
-            <a href="VH-39.html">39</a>
+            <a href="{{ page.ref}}39.html">39</a>
           </li>
           <li>
-            <a href="VH-40.html">40</a>
+            <a href="{{ page.ref}}40.html">40</a>
           </li>
           <li>
-            <a href="VH-41.html">41</a>
+            <a href="{{ page.ref}}41.html">41</a>
           </li>
           <li>
-            <a href="VH-42.html">42</a>
+            <a href="{{ page.ref}}42.html">42</a>
           </li>
           <li>
-            <a href="VH-43.html">43</a>
+            <a href="{{ page.ref}}43.html">43</a>
           </li>
           <li>
-            <a href="VH-44.html">44</a>
+            <a href="{{ page.ref}}44.html">44</a>
           </li>
           <li>
-            <a href="VH-45.html">45</a>
+            <a href="{{ page.ref}}45.html">45</a>
           </li>
           <li>
-            <a href="VH-46.html">46</a>
+            <a href="{{ page.ref}}46.html">46</a>
           </li>
           <li>
-            <a href="VH-47.html">47</a>
+            <a href="{{ page.ref}}47.html">47</a>
           </li>
           <li>
-            <a href="VH-48.html">48</a>
+            <a href="{{ page.ref}}48.html">48</a>
           </li>
           <li>
-            <a href="VH-49.html">49</a>
+            <a href="{{ page.ref}}49.html">49</a>
           </li>
           <li>
-            <a href="VH-50.html">50</a>
+            <a href="{{ page.ref}}50.html">50</a>
           </li>
           <li>
-            <a href="VH-51.html">51</a>
+            <a href="{{ page.ref}}51.html">51</a>
           </li>
           <li>
-            <a href="VH-52.html">52</a>
+            <a href="{{ page.ref}}52.html">52</a>
           </li>
           <li>
-            <a href="VH-53.html">53</a>
+            <a href="{{ page.ref}}53.html">53</a>
           </li>
           <li>
-            <a href="VH-54.html">54</a>
+            <a href="{{ page.ref}}54.html">54</a>
           </li>
           <li>
-            <a href="VH-55.html">55</a>
+            <a href="{{ page.ref}}55.html">55</a>
           </li>
           <li>
-            <a href="VH-56.html">56</a>
+            <a href="{{ page.ref}}56.html">56</a>
           </li>
           <li>
-            <a href="VH-57.html">57</a>
+            <a href="{{ page.ref}}57.html">57</a>
           </li>
           <li>
-            <a href="VH-58.html">58</a>
+            <a href="{{ page.ref}}58.html">58</a>
           </li>
           <li>
-            <a href="VH-59.html">59</a>
+            <a href="{{ page.ref}}59.html">59</a>
           </li>
           <li>
-            <a href="VH-60.html">60</a>
+            <a href="{{ page.ref}}60.html">60</a>
           </li>
           <li>
-            <a href="VH-61.html">61</a>
+            <a href="{{ page.ref}}61.html">61</a>
           </li>
           <li>
-            <a href="VH-62.html">62</a>
+            <a href="{{ page.ref}}62.html">62</a>
           </li>
           <li>
-            <a href="VH-63.html">63</a>
+            <a href="{{ page.ref}}63.html">63</a>
           </li>
           <li>
-            <a href="VH-64.html">64</a>
+            <a href="{{ page.ref}}64.html">64</a>
           </li>
           <li>
-            <a href="VH-65.html">65</a>
+            <a href="{{ page.ref}}65.html">65</a>
           </li>
           <li>
-            <a href="VH-66.html">66</a>
+            <a href="{{ page.ref}}66.html">66</a>
           </li>
           <li>
-            <a href="VH-67.html">67</a>
+            <a href="{{ page.ref}}67.html">67</a>
           </li>
           <li>
-            <a href="VH-68.html">68</a>
+            <a href="{{ page.ref}}68.html">68</a>
           </li>
           <li>
-            <a href="VH-69.html">69</a>
+            <a href="{{ page.ref}}69.html">69</a>
           </li>
           <li>
-            <a href="VH-70.html">70</a>
+            <a href="{{ page.ref}}70.html">70</a>
           </li>
           <li>
-            <a href="VH-71.html">71</a>
+            <a href="{{ page.ref}}71.html">71</a>
           </li>
           <li>
-            <a href="VH-72.html">72</a>
+            <a href="{{ page.ref}}72.html">72</a>
           </li>
           <li>
-            <a href="VH-73.html">73</a>
+            <a href="{{ page.ref}}73.html">73</a>
           </li>
           <li>
-            <a href="VH-74.html">74</a>
+            <a href="{{ page.ref}}74.html">74</a>
           </li>
           <li>
-            <a href="VH-75.html">75</a>
+            <a href="{{ page.ref}}75.html">75</a>
           </li>
           <li>
-            <a href="VH-76.html">76</a>
+            <a href="{{ page.ref}}76.html">76</a>
           </li>
           <li>
-            <a href="VH-77.html">77</a>
+            <a href="{{ page.ref}}77.html">77</a>
           </li>
           <li>
-            <a href="VH-78.html">78</a>
+            <a href="{{ page.ref}}78.html">78</a>
           </li>
           <li>
-            <a href="VH-79.html">79</a>
+            <a href="{{ page.ref}}79.html">79</a>
           </li>
           <li>
-            <a href="VH-80.html">80</a>
+            <a href="{{ page.ref}}80.html">80</a>
           </li>
           <li>
-            <a href="VH-81.html">81</a>
+            <a href="{{ page.ref}}81.html">81</a>
           </li>
           <li>
-            <a href="VH-82.html">82</a>
+            <a href="{{ page.ref}}82.html">82</a>
           </li>
           <li>
-            <a href="VH-83.html">83</a>
+            <a href="{{ page.ref}}83.html">83</a>
           </li>
           <li>
-            <a href="VH-84.html">84</a>
+            <a href="{{ page.ref}}84.html">84</a>
           </li>
           <li>
-            <a href="VH-85.html">85</a>
+            <a href="{{ page.ref}}85.html">85</a>
           </li>
           <li>
-            <a href="VH-86.html">86</a>
+            <a href="{{ page.ref}}86.html">86</a>
           </li>
           <li>
-            <a href="VH-87.html">87</a>
+            <a href="{{ page.ref}}87.html">87</a>
           </li>
           <li>
-            <a href="VH-88.html">88</a>
+            <a href="{{ page.ref}}88.html">88</a>
           </li>
           <li>
-            <a href="VH-89.html">89</a>
+            <a href="{{ page.ref}}89.html">89</a>
           </li>
           <li>
-            <a href="VH-90.html">90</a>
+            <a href="{{ page.ref}}90.html">90</a>
           </li>
           <li>
-            <a href="VH-91.html">91</a>
+            <a href="{{ page.ref}}91.html">91</a>
           </li>
           <li>
-            <a href="VH-92.html">92</a>
+            <a href="{{ page.ref}}92.html">92</a>
           </li>
           <li>
-            <a href="VH-93.html">93</a>
+            <a href="{{ page.ref}}93.html">93</a>
           </li>
           <li>
-            <a href="VH-94.html">94</a>
+            <a href="{{ page.ref}}94.html">94</a>
           </li>
           <li>
-            <a href="VH-95.html">95</a>
+            <a href="{{ page.ref}}95.html">95</a>
           </li>
           <li>
-            <a href="VH-96.html">96</a>
-          </li>
+            <a href="{{ page.ref}}96.html">96</a>
+          </li>-->
         </ul>
       </div>
-
-      <!--<div class="large-6 columns">
-        
-        <ul class="pagination">
-          <li>
-            <a href="#l1">1</a>
-          </li>
-          <li>
-            <a href="#l2">2</a>
-          </li>
-          <li>
-            <a href="#l3">3</a>
-          </li>
-          <li>
-            <a href="#l4">4</a>
-          </li>
-          <li>
-            <a href="#l5">5</a>
-          </li>
-          <li>
-            <a href="#l6">6</a>
-          </li>
-          <li>
-            <a href="#l7">7</a>
-          </li>
-          <li>
-            <a href="#l8">8</a>
-          </li>
-          <li>
-            <a href="#l9">9</a>
-          </li>
-          <li>
-            <a href="#l10">10</a>
-          </li>
-          <li>
-            <a href="#l12">12</a>
-          </li>
-          <li>
-            <a href="#l13">13</a>
-          </li>
-        </ul>
-      </div>-->
     </div>
 
     <!-- EDITION ROW -->
     <div class="row">
       <div class="large-6 columns">
         <div class="panel">
-          <div id="panel_left">
-            {{ page.panel_left}}
-          </div>
+          <div id="panel_left"> {{ page.panel_left}} </div>
         </div>
       </div>
 
       <div class="large-6 columns">
         <div class="panel">
-          <div id="panel_right">
-            {{ page.panel_right}}
-          </div>
+          <div id="panel_right"> {{ page.panel_right}} </div>
         </div>
       </div>
     </div>
-    
+
     <div class="row">
       <div class="large-6 columns">
-        <div class="panel">
-          
-        </div>
+        <div class="panel"> </div>
       </div>
-      
+
       <div class="large-6 columns">
-        <div class="panel">
-          
-        </div>
+        <div class="panel"> </div>
       </div>
     </div>
-    
+
   </body>
 </html>
