@@ -1,4 +1,5 @@
 ﻿@import url(https://fonts.googleapis.com/css?family=Eagle+Lake);
+
 h2{
     font-family:'Eagle Lake', cursive;
 
@@ -14,9 +15,10 @@ h2{
     font-weight:bold;
     color:#2BA6CB;
 }
-p{
-    text-align:justify;
-}
+
+/*p{
+    text-align:left;
+}*/
 
 .persName{
     font-weight:bold;
@@ -24,4 +26,76 @@ p{
 
 .facs{
     margin-right:3px;
+}
+
+
+/*Para las variantes*/
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    /*color:red;*/
+    text-decoration:none;
+    display:inline;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #2ba6cb;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 0;
+    font-size:13px;
+
+    top: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+/*Tooltoip Para los números y notas*/
+.nota {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.nota .texto_nota {
+    visibility: hidden;
+    width: 160px;
+    background-color: #cc0099;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 0;
+    font-size:13px;
+
+    top: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+.nota:hover .texto_nota {
+    visibility: visible;
+}
+.corr{
+    text-decoration: line-through;
+}
+
+
+sup{
+    color: #cc0099;
+    font-weight: bold;
 }
